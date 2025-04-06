@@ -1,0 +1,31 @@
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 15vh;
+}
+
+.blog-section {
+    margin: 10px 5px 5px 5px;
+    margin-left: 10px;
+    overflow: scroll;
+    height: 80vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title span{
+    cursor: pointer;
+}
