@@ -56,14 +56,14 @@ try {
                     <div>
                         <div class="title">
                             <h1><?= htmlspecialchars($blog->getTitle()); ?></h1>
-                            <span>&#10005;</span>
+                            <a href="<?= './delete.php?id=' . $id ?>"><span>&#10005;</span></a>
                         </div>
                     <hr>
                     </div>
                     <p><?= htmlspecialchars($blog->getContent()); ?></p><hr>
                     <div class="bottom">
-                    <h4>Author: <?= htmlspecialchars($_SESSION['username']) ?></h4>
                     <small>Posted on: <?= htmlspecialchars($blog->getCreateAt()); ?></small>
+                    <a class="edit-link" href="<?= './create.php?id=' . $id?>">Edit Blog</a>
                     </div>
                 </div>
             </div>

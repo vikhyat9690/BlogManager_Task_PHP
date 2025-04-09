@@ -29,3 +29,19 @@ footer{
 .title span{
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+.edit-link:hover{
+    text-decoration: underline;
+    transform: scale(1.0);
+}

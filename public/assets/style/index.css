@@ -105,3 +105,16 @@ main {
 .read-more:hover {
     color: #16a085;
 }
+
+.head-dBtn{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.head-dBtn button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@
 .main{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: black;
+    background-color: white;
     box-shadow: 2px 3px 5px 10px rgba(255, 255, 255, 0.364);
 }
 
@@ -36,7 +36,7 @@ form{
 }
 
 h2{
-    color: white;
+    color: #2c3e50;
     font-size: xx-large;
     margin-top: 10px;
 }
@@ -51,7 +51,7 @@ form input{
 button {
     width: 70%;
     padding: 10px;
-    background-color: gray;
+    background-color: #2c3e50;
     font-size: large;
     cursor: pointer;
     border-radius: 10px;
@@ -60,7 +60,7 @@ button {
 }
 
 a{
-    color: white;
+    color: #2c3e50;
     text-decoration: none;
 }
 
@@ -69,5 +69,11 @@ a:hover{
 }
 
 button:hover{
-    background-color: rgba(0, 0, 0, 0.46);
+    background-color: #1c2e3f;
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+span{
+    color: #2c3e50;
 }
